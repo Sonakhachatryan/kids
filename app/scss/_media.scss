@@ -1,0 +1,391 @@
+@media screen and (max-width: 1200px) and (min-width: 320px) {
+
+  .about_page_shadow {
+    margin-top: -77px;
+  }
+  img {
+    width: 100%;
+  }
+  .main-navbar ul {
+    li {
+      margin-left: 20px;
+      a {
+        font-size: 25px;
+      }
+    }
+  }
+  .main-navbar ul li.signIn a, .main-navbar ul li.signUp a {
+    color: white !important;
+    padding: 13px 20px !important;
+  }
+
+  section {
+
+    &.about_us {
+      img {
+        width: 100%;
+      }
+      .about_us_text {
+        img {
+          width: 100%;
+        }
+      }
+    }
+    &.our_services {
+      .content {
+        .services_items {
+          img {
+            width: 100%;
+            height: unset;
+            margin: 20px 0;
+          }
+          .services_descript {
+            display: none;
+          }
+        }
+      }
+    }
+    &.testimonials {
+      .test {
+        img {
+          width: 100%;
+        }
+      }
+    }
+    &.subscribe {
+      form {
+        input {
+          width: 100%;
+        }
+        button {
+          width: auto;
+          padding: 5px 20px;
+        }
+      }
+    }
+    &.home_page {
+      .home_text {
+        text-align: left;
+
+        h1 {
+          font-size: 50px;
+        }
+        p {
+          font-size: 35px;
+        }
+      }
+    }
+    &.features_bunner, &.whatWeDo, &.last_bunner {
+      .ellipse_img {
+        img {
+          width: 100% !important;
+        }
+      }
+      .content {
+        .section_img {
+          width: auto;
+        }
+      }
+    }
+    &.last_bunner {
+      margin-bottom: 20px;
+    }
+    &.about_us_bunner, &.whatWeDo {
+      padding-top: 50px;
+      padding-bottom: 20px;
+    }
+    h1 {
+      font-size: 50px !important;
+    }
+    p {
+      font-size: 30px !important;
+    }
+    footer {
+      .menu {
+        ul {
+          li {
+            a {
+              font-size: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1640px) and (min-width: 468px) {
+
+  img {
+    width: 100% !important;
+  }
+
+  section.our_services .content .services_items .services_descript {
+    position: absolute;
+    width: 90%;
+    margin: 0 auto;
+    left: 23px;
+    top: 76%;
+    padding: 5px;
+  }
+
+  section.sign_up .content .section_img, section.sign_in .content .section_img {
+    width: 100%;
+  }
+
+  section.sign_up .content .child, section.sign_in .content .child {
+    position: absolute;
+    top: 87px;
+    left: 33%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+
+  section.subscribe .signButton button {
+    margin: 15px 0 !important;
+    padding: unset;
+    width: 82%;
+  }
+  section.sign_in .pos_img {
+    display: none;
+  }
+
+  section.sign_up .content .section_img, section.sign_in .content .section_img {
+    width: 497px;
+    height: 625px;
+    margin-top: 44px;
+  }
+  section.sign_up .content .child, section.sign_in .content .child {
+    position: absolute;
+    top: 0;
+    left: 33%;
+  }
+
+  section.subscribe {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  section.sign_up .content .section_img, section.sign_in .content .section_img {
+    width: 497px;
+    height: 625px;
+    margin-top: 44px;
+  }
+  section.sign_up .content .child, section.sign_in .content .child {
+    top: 0;
+    left: 33%;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 320px) {
+  footer  ul li p, footer ul li a {
+    font-size: 20px;
+    font-family: 'Corbel_Regular';
+  }
+
+  section.sign_in .sign_in_form {
+    width: 100%;
+  }
+  section.sign_up .content, section.sign_in .content {
+    width: 91.4%;
+  }
+
+
+
+  section.our_team .content {
+    width: 91%;
+    margin: 0 auto;
+  }
+  .about_us_text {
+    padding-top: 60px;
+  }
+
+  section.about_us_bunner .about_us_text h1, section.whatWeDo .about_us_text h1 {
+    padding-left: 50px;
+  }
+  footer ul.social_links li {
+    width: 55px;
+    height: 55px;
+  }
+  footer ul.social_links li i {
+    font-size: 22px;
+  }
+
+  footer .menu p, footer .contact p.contact {
+    font-size: 30px;
+  }
+  section.sign_in .sign_in_form .main_form {
+    background-color: white;
+    padding: 70px 20px;
+    margin-top: 40px;
+  }
+
+  .main-navbar ul li.signUp, .main-navbar ul li.signIn {
+    margin: 5px 0;
+    margin-left: unset;
+  }
+
+  .main-navbar ul li.signIn a, .main-navbar ul li.signUp a {
+    padding: 6px 20px !important;
+  }
+  section.our_team .testimonails_items .user_img, section.our_team .testimonails_items .user_comments {
+    width: 73%;
+    margin: 15px auto;
+  }
+  .main-navbar ul li a {
+    font-size: 16px;
+  }
+
+  .navbar-toggler {
+    float: right;
+  }
+  section.about_us_bunner .about_us_text img, section.whatWeDo .about_us_text img {
+    width: 100%;
+  }
+  section.about_us_bunner .about_us_text p, section.whatWeDo .about_us_text p {
+    padding-left: 20px;
+  }
+  section {
+
+    &.sign_up, &.sign_in {
+      padding: 50px 0 150px;
+    }
+    //.section_img, .child {
+    //  display: none;
+    //}
+
+    &.subscribe_link .section_title button {
+      width: 100%;
+      height: 74px;
+      border-radius: 10px;
+      background-color: #fe5f97;
+      font-size: 34px;
+      font-family: 'Futura_Bold';
+      color: white;
+      border: unset;
+      margin: 20px 0;
+    }
+
+    &.have_question {
+      .general_quest {
+        .question_accordion {
+          .card {
+            .card-header {
+              h5 {
+                button {
+                  font-size: 13px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &.have_question {
+      .section_title {
+        .group_input {
+          input {
+            width: 100%;
+            margin: 20px 0;
+          }
+        }
+      }
+    }
+
+    &.faq_wrapper {
+      .faq_itmes {
+        .question {
+          p {
+            margin-bottom: unset;
+          }
+        }
+      }
+    }
+
+    &.our_services {
+      padding: 100px 0;
+      .content {
+        .see_more {
+          margin: unset;
+        }
+      }
+    }
+
+    &.testimonials {
+      .testimonails_items {
+        width: 100%;
+
+        p.quotes {
+          top: 23%;
+        }
+      }
+    }
+
+    &.about_us {
+      .kidsImage {
+        padding: 14px 0 50px 0;
+      }
+    }
+
+    &.home_page {
+
+      .home_text {
+
+        h1, p {
+          text-shadow: 1px -1px 1px #e2dfdf;
+        }
+      }
+    }
+
+    p {
+      font-size: 25px !important;
+    }
+
+    h1 {
+      font-size: 40px !important;
+    }
+  }
+
+  .about_page_shadow {
+    margin-top: -53px;
+  }
+  footer {
+
+    .menu, .contact {
+
+      ul, p {
+        padding-left: unset !important;
+
+        li {
+          p, a {
+            font-size: 20px !important;
+          }
+        }
+      }
+    }
+  }
+
+  .owl-dots button.owl-dot {
+    margin-right: 14px;
+  }
+
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px){
+  section.testimonials .content {
+    width: 84% !important;
+    margin: 0 auto;
+  }
+  section.testimonials .testimonails_items p.quotes {
+    top: 147px;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1300px){
+  footer .contact ul li p, footer ul li a{
+    font-size: 20px;
+  }
+}

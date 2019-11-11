@@ -1,0 +1,267 @@
+section {
+  &.sign_up, &.sign_in {
+    padding: 200px 0;
+
+    h1 {
+      font-family: "myriadpro";
+      font-size: 46.5px;
+      font-weight: bold;
+      margin-bottom: 54px;
+
+      span {
+        color: #910f3d;
+      }
+    }
+
+    .content {
+      width: 75.4%;
+      margin: 0 auto;
+
+      .section_img {
+        background-image: url("../img/square_3.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 497px;
+        height: 522px;
+        position: relative;
+        float: right;
+      }
+
+      .child {
+        position: absolute;
+        top: -89px;
+        left: 33%;
+      }
+
+      .sign_up_forms {
+
+        input {
+          background-color: white;
+          border: unset;
+          border-radius: unset;
+          padding: 26px 24px;
+          margin-bottom: 24px;
+
+          &::-webkit-input-placeholder {
+            font-family: "OpenSans-Regular";
+            font-size: 18px;
+            letter-spacing: 0.5px;
+            text-align: left;
+            color: #222544;
+          }
+        }
+
+        button {
+          background-color: #910f3d;
+          width: 100%;
+          border: unset;
+          border-radius: unset;
+          margin-top: 41px;
+          font-family: 'Roboto-Bold';
+          font-size: 23px;
+          padding: 15px 0;
+        }
+
+        .container_rem {
+          display: block;
+          position: relative;
+          padding-left: 35px;
+          margin-bottom: 12px;
+          cursor: pointer;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+          font-family: 'OpenSans-Regular';
+          font-size: 18px;
+          color: #222544;
+
+          input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+          }
+
+          .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #fff;
+
+            &:after {
+              content: "";
+              position: absolute;
+              display: none;
+            }
+          }
+
+          &:hover input ~ .checkmark {
+            background-color: #ccc;
+          }
+
+          & input:checked ~ .checkmark {
+            background-color: #910f3d;
+          }
+
+          & input:checked ~ .checkmark:after {
+            display: block;
+          }
+
+          /* Style the checkmark/indicator */
+          & .checkmark:after {
+            left: 9px;
+            top: 7px;
+            width: 5px;
+            height: 10px;
+            border: solid white;
+            border-width: 0 3px 3px 0;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+          }
+        }
+      }
+    }
+  }
+  &.sign_in {
+    background: url(../img/bg-33.png) no-repeat center;
+    height: 1070px;
+    display: flex;
+    align-items: center;
+
+    .pos_img {
+      position: absolute;
+      top: -33%;
+      right: 20%;
+      z-index: 9;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .sign_in_form {
+      position: relative;
+      width: 87%;
+      margin: 0 auto;
+
+      .main_form {
+        background-color: white;
+        padding: 62px 222px 70px 116px;
+        margin-top: 40px;
+
+        h1 {
+          font-family: "myriadpro";
+          font-size: 46.5px;
+          font-weight: bold;
+          margin-bottom: 54px;
+
+          span {
+            color: #fe5f97;
+          }
+        }
+
+        button {
+          background-color: #fe5f97;
+          width: 100%;
+          margin-bottom: 27px;
+          border: unset;
+          border-radius: unset;
+          font-family: 'Roboto-Bold';
+          font-size: 23px;
+          padding: 15px 0;
+        }
+
+        input {
+          width: 100%;
+          border-radius: unset;
+          border: unset;
+          background-color: #efefef;
+          margin-bottom: 27px;
+          height: 65px;
+        }
+      }
+    }
+
+    .forgot {
+      display: flex;
+      justify-content: space-between;
+
+      a{
+        font-family: "OpenSans-Regular";
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        text-align: left;
+        color: #000000;
+        text-decoration: none;
+      }
+    }
+
+    .container_rem {
+      display: block;
+      position: relative;
+      padding-left: 35px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      font-family: 'OpenSans-Regular';
+      font-size: 18px;
+      color: #222544;
+
+      input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+      }
+
+      .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: #fff;
+        border: 1px solid black;
+
+        &:after {
+          content: "";
+          position: absolute;
+          display: none;
+        }
+      }
+
+      & input:checked ~ .checkmark {
+        background-color: #fe5f97;
+        border: unset;
+      }
+
+      & input:checked ~ .checkmark:after {
+        display: block;
+      }
+
+      /* Style the checkmark/indicator */
+      & .checkmark:after {
+        left: 9px;
+        top: 7px;
+        width: 5px;
+        height: 10px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+    }
+  }
+}

@@ -1,0 +1,349 @@
+@import "mixin";
+
+section {
+
+  .no-padding {
+    padding: 0;
+  }
+
+  &.about_us_bunner, &.whatWeDo {
+    padding-top: 150px;
+    padding-bottom: 216px;
+
+    .about_us_text {
+
+      img {
+        width: unset;
+        padding-left: 30px;
+      }
+
+      h1 {
+        padding-left: 125px;
+        font-family: 'Futura_Bold';
+        font-size: 51px;
+        margin-top: -55px;
+        padding-bottom: 63px;
+        margin-bottom: unset;
+      }
+
+      p {
+        font-size: 35px;
+        font-family: 'Corbel_Regular';
+        padding-left: 125px;
+        text-align: left;
+      }
+
+      a {
+        font-family: 'Corbel_Bold';
+        font-size: 54px;
+        text-align: center;
+        text-decoration: none;
+        border-bottom: 3px solid white;
+      }
+    }
+  }
+
+  &.whatWeDo {
+    padding-bottom: 182px;
+    .rouse_bg {
+      width: 602px;
+      height: 543px;
+
+      img {
+        box-shadow: 0px 17px 34.8px 5.2px rgba(0, 0, 0, 0.2);
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+      //box-shadow: 0px 17px 34.8px 5.2px rgba(0, 0, 0, 0.2);
+      //background-color: #fe5f97;
+    }
+  }
+
+  &.subscribe_link {
+    background-image: url("../img/img_3.png");
+    @include bg_properties();
+    //height: 532px;
+    padding: 123px 0;
+
+    .section_title {
+      color: white;
+
+      h1 {
+        font-family: 'Futura_Bold';
+        font-size: 75px;
+        margin: unset;
+      }
+
+      p {
+        font-family: Corbel_Bold;
+        font-size: 36px;
+        padding: 47px 0 65px;
+        margin: unset;
+      }
+
+      button {
+        width: 310px;
+        height: 74px;
+        border-radius: 10px;
+        background-color: #fe5f97;
+        font-size: 34px;
+        font-family: 'Futura_Bold';
+        color: white;
+        border: unset;
+        margin: 0 22px;
+
+        &:last-child {
+          background-color: #910f3d;
+        }
+      }
+    }
+  }
+
+  &.our_team {
+
+    .content {
+      width: 65.6%;
+      margin: 0 auto;
+    }
+
+    .our_team_title {
+      padding-top: 168px;
+      padding-bottom: 88px;
+
+      h1 {
+        font-family: 'Futura_Bold';
+        font-size: 75px;
+        position: relative;
+
+        &:after {
+          position: absolute;
+          display: block;
+          content: '';
+          width: 51px;
+          height: 2px;
+          background-color: #2f0b96;
+          transform: rotate(45deg);
+          bottom: 33%;
+          left: 30%;
+        }
+
+        &:before {
+          position: absolute;
+          display: block;
+          content: '';
+          width: 67px;
+          height: 2px;
+          background-color: #ff00ff;
+          transform: rotate(10deg);
+          top: 0;
+          right: 26%;
+        }
+      }
+    }
+
+    .testimonails_items {
+
+      .user_img {
+        width: 100%;
+        height: 273px;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-position: center;
+          object-fit: cover;
+        }
+      }
+
+      .user_comments {
+        margin-top: 11px;
+        width: 100%;
+        height: 119px;
+        background-color: #fe5f97;
+        color: white;
+        text-align: center;
+        padding: 16px 0;
+
+        h5 {
+          font-size: 30px;
+          font-family: 'Roboto_Medium';
+          margin: unset;
+        }
+
+        p {
+          font-family: 'Roboto-Light';
+          font-size: 20px;
+          padding-top: 15px;
+          margin: unset;
+        }
+
+      }
+    }
+
+    .owl-dots {
+      text-align: center;
+      margin-top: 72px;
+      margin-bottom: 118px;
+
+      button.owl-dot {
+        width: 23px;
+        height: 23px;
+        border: solid 2px #2f0b96;
+        border-radius: 50%;
+        margin-right: 25px;
+
+        &.active {
+          background-color: #2f0b96;
+        }
+
+        &:focus {
+          outline: unset;
+          box-shadow: unset;
+        }
+      }
+    }
+  }
+
+  &.features_bunner, &.whatWeDo, &.last_bunner {
+    padding-top: 50px;
+
+    .ellipse_img {
+      position: relative;
+      margin-bottom: 116px;
+
+      img {
+        width: unset !important;
+      }
+
+      h1, p {
+        position: absolute;
+        top: 51%;
+        left: 6%;
+      }
+      h1 {
+        font-family: 'Futura_Bold';
+        font-size: 51px;
+      }
+      p {
+        top: 80%;
+        font-family: 'Corbel_Regular';
+        font-size: 28px;
+      }
+    }
+
+    .content {
+      width: 86.8%;
+      margin: 0 auto;
+
+      .section_img {
+        background-image: url("../img/square.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 554px;
+        height: 504px;
+        position: relative;
+      }
+
+      .img_sec {
+        background-image: url("../img/elipse_sec.png") !important;
+      }
+
+      .child_2 {
+        top: 32% !important;
+        left: -37px !important;
+      }
+
+      .child {
+        position: absolute;
+        top: 0;
+        left: 6%;
+      }
+
+      .inner_bunner {
+        display: flex;
+        align-items: center;
+
+        .about_us_text {
+          width: 593px;
+
+          h3 {
+            font-size: 35px;
+            font-family: 'Futura_Bold';
+          }
+          p {
+            font-family: 'Corbel_Regular';
+            font-size: 29px;
+            padding-left: unset;
+          }
+        }
+      }
+    }
+  }
+
+  &.last_bunner {
+   padding-bottom: 272px;
+
+    .content {
+
+      .section_img {
+        background-image: url("../img/square_2.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 513px;
+        height: 395px;
+        position: relative;
+      }
+
+      .img_sec {
+        background-image: url("../img/elipse_sec.png") !important;
+      }
+
+      .child_2 {
+        top: 32% !important;
+        left: -37px !important;
+      }
+
+      .child {
+        position: absolute;
+        top: 0;
+        left: 6%;
+      }
+
+      .inner_bunner {
+        display: flex;
+        align-items: center;
+
+        .about_us_text {
+          width: 593px;
+
+          h3 {
+            font-size: 35px;
+            font-family: 'Futura_Bold';
+          }
+          p {
+            font-family: 'Corbel_Regular';
+            font-size: 29px;
+            padding-left: unset;
+          }
+        }
+      }
+    }
+  }
+}
+
+main.about_us_page {
+  background-color: #efefef;
+}
+
+.about_page_shadow {
+  box-shadow: 1px 6px 21px #d8d8d8;
+  height: 100px;
+  transform: rotate(180deg);
+  border-radius: 50%;
+  margin-top: -45px;
+  background: white;
+}

@@ -1,0 +1,352 @@
+@import "font";
+@import "var";
+@import "mixin";
+@import "common";
+@import "header";
+@import "about";
+@import "faq";
+@import "sign_up";
+@import "footer";
+
+//home page styles
+
+section {
+
+  &.home_page {
+    background-image: url(../img/kids.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-top: 73px;
+
+    .home_text {
+      text-align: center;
+      padding-top: 150px;
+      float: right;
+
+      h1 {
+        font-size: 100px;
+        font-family: 'Corbel_Bold';
+        margin-top: 50px;
+      }
+
+      p {
+        font-size: 65px;
+        font-family: 'Corbel_Regular';
+        margin-bottom: 60px;
+      }
+
+      button {
+        border-radius: 10px;
+        background-color: #fe5f97;
+        border: unset;
+        color: white;
+        font-size: 35px;
+        font-family: 'Futura_Bold';
+        padding: 10px 45px;
+        margin-bottom: 200px;
+      }
+    }
+  }
+
+  &.about_us {
+    background-image: url("../img/bg2.png");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 47px 0 100px 0;
+
+    .kidsImage {
+      display: flex;
+      align-items: center;
+      padding: 140px 90px 0 90px;
+    }
+
+    img {
+      width: unset;
+    }
+
+    .about_us_text {
+      text-align: center;
+
+      img {
+        width: unset;
+      }
+
+      h1 {
+        color: white;
+        font-family: 'Futura_Bold';
+        font-size: 82px;
+        margin-top: -80px;
+        padding-bottom: 80px;
+      }
+
+      p {
+        font-size: 35px;
+        font-family: 'Corbel_Regular';
+        color: white;
+        text-align: left;
+      }
+
+      a {
+        font-family: 'Corbel_Bold';
+        font-size: 54px;
+        color: white;
+        //display: block;
+
+        text-align: center;
+        text-decoration: none;
+        border-bottom: 3px solid white;
+      }
+    }
+  }
+
+  &.our_services {
+    padding: 135px 0;
+    .content {
+      width: 84.7%;
+
+      h1 {
+        font-size: 75px;
+        font-family: 'Futura_Bold';
+        color: #777777;
+        margin-bottom: 48px;
+      }
+      p {
+        font-family: 'Corbel_Regular';
+        font-size: 27px;
+        color: #777777;
+        margin-bottom: 86px;
+      }
+      .services_items {
+        img {
+          position: relative;
+          width: 480px;
+          height: 330px;
+        }
+        .green {
+          background-color: #19bdb7 !important;
+        }
+        .rose {
+          background-color: #fe5f97 !important;
+        }
+        .blue {
+          background-color: #2f0b96 !important;
+        }
+        .services_descript {
+          position: absolute;
+          width: 385px;
+          margin: 0 auto;
+          left: 11%;
+          top: 76%;
+          padding: 5px;
+
+          p {
+            color: white;
+            font-size: 27px;
+            font-family: 'Corbel_Regular';
+            margin-bottom: unset;
+            text-align: center;
+          }
+        }
+      }
+      .see_more {
+        margin: 200px 0 0 0;
+        a {
+          font-family: 'Corbel_Bold';
+          font-size: 53px;
+          color: black;
+          border-bottom: 3px solid black;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  &.testimonials {
+    background-image: url("../img/bg3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 55px;
+    padding-bottom: 89px;
+
+    .content{
+      width: 68%;
+      margin: 0 auto;
+    }
+
+    .testimonails_items{
+      width: 85%;
+      position: relative;
+
+      p.quotes{
+        position: absolute;
+        top: 50%;
+        img{
+          width: unset;
+        }
+      }
+
+      .user_comments{
+        margin-top: 11px;
+        padding: 49px 25px 29px 26px;
+        text-align: center;
+        background-color: #fe5f97;
+        color: white;
+
+        &.blue_bg{
+          background-color: #2f0b96;
+        }
+
+        h5{
+          position: relative;
+
+          &:after, &:before{
+            position: absolute;
+            content: "";
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            color: white;
+            display: block;
+            left: 0;
+          }
+          &:before{
+            right: 0;
+          }
+        }
+      }
+    }
+  }
+
+  &.subscribe {
+    padding-top: 213px;
+
+    .sub{
+      h1{
+        font-size: 75px;
+        font-family: 'Futura_Bold';
+        color: #777777;
+        margin-bottom: 41px;
+      }
+      p {
+        font-size: 36px;
+        font-family: 'Corbel_Regular';
+        color: #777777;
+        margin-bottom: 33px;
+      }
+    }
+
+    .signButton {
+      display: flex;
+      align-items: center;
+
+      button {
+        @include btn;
+        font-size: 36px;
+        font-family: 'Futura_Bold';
+        padding: 22px 67px;
+        margin: 0 35px;
+
+        &.signUp {
+          background-color: #910f3d;
+        }
+      }
+    }
+
+    form {
+      label {
+        font-family: 'Corbel_Regular';
+        font-size: 45px;
+        color: rgba(0, 0, 0, 0.6);
+      }
+      input {
+        opacity: 0.3;
+        border-radius: 10px;
+        background-color: #ffffff;
+        border: solid 2px #000000;
+        //padding: 32px 55px;
+        width: 789px;
+        height: 65px;
+      }
+
+      button {
+        @include btn;
+        font-size: 36px;
+        font-family: 'Futura_Bold';
+        width: 326px;
+        height: 79px;
+        margin-bottom: 176px;
+        margin-top: 143px;
+      }
+    }
+  }
+
+  &.faq_wrapper{
+    margin-top: 100px;
+
+    .faq_header{
+      text-align: center;
+      h1{
+        font-size: 75px;
+        font-family: 'Futura_Bold';
+        color: #777777;
+        margin-bottom: 80px;
+      }
+    }
+    .faq_itmes{
+      .question{
+        h5{
+          font-family: 'Futura_Bold';
+          font-size: 27px;
+          color: black;
+        }
+        p{
+          font-family: 'Corbel_Regular';
+          font-size: 20px;
+          color: #777777;
+          margin-bottom: 86px;
+        }
+        svg{
+          width: 26px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+
+}
+
+.owl-dots{
+  text-align: center;
+  margin-top: 73px;
+
+  button.owl-dot{
+    width: 22px;
+    height: 22px;
+    //background-color: #006d69;
+    border: solid 2px #006d69;
+    border-radius: 50%;
+    margin-right: 25px;
+
+    &.active{
+      background-color: #006d69;
+    }
+
+    &:focus{
+      outline: unset;
+      box-shadow: unset;
+    }
+  }
+}
+
+.bottomShadow {
+  box-shadow: 1px 6px 45px #d8d8d8;
+  height: 100px;
+  transform: rotate(180deg);
+  border-radius: 50%;
+  margin-top: 100px;
+}
+
+@import "media";

@@ -1,0 +1,119 @@
+
+section {
+
+  &.have_question {
+    padding-bottom: 208px;
+    padding-top: 90px;
+
+    .content {
+      width: 87.1%;
+      margin: 0 auto;
+    }
+
+    .section_title {
+      text-align: center;
+      margin-bottom: 149px;
+
+      h1 {
+        font-size: 51px;
+        font-family: 'Futura_Bold';
+        margin-bottom: 33px;
+      }
+
+      p {
+        font-family: 'Corbel_Regular';
+        font-size: 28px;
+        margin-bottom: 42px;
+      }
+
+      .group_input {
+        height: 73px;
+
+        input {
+          background-color: #ffffff;
+          height: 100%;
+          border: unset;
+          border-radius: unset;
+          width: 78%;
+          margin-right: 19px;
+          padding-left: 27px;
+          vertical-align: middle;
+        }
+
+        .search_btn {
+          background-color: #fe5f97;
+          color: white;
+          font-family: "Futura_Bold";
+          font-size: 27px;
+          font-weight: 900;
+          line-height: 27px;
+          border: unset;
+          border-radius: unset;
+          padding: 0 96px;
+          height: 100%;
+          vertical-align: middle;
+        }
+
+      }
+    }
+
+    .main_questions {
+      h2 {
+        font-family: "Futura_Bold";
+        font-size: 30px;
+        margin-bottom: 28px;
+      }
+    }
+
+    .question_accordion {
+
+      .card {
+        margin-bottom: 31px;
+
+        .card-header {
+          background-color: white;
+          border: unset;
+          border-radius: unset;
+          height: 121px;
+
+          h5 {
+            height: 100%;
+            display: flex;
+
+            button {
+              font-family: "Futura_Bold";
+              font-size: 20px;
+              color: black;
+              text-align: left;
+              white-space: normal;
+              display: flex;
+              text-decoration: none;
+
+              span {
+
+                img {
+                  width: 24px;
+                  height: 24px;
+                  margin-right: 15px;
+                }
+                i {
+                  //font-size: 34.5px;
+                  //font-weight: 900;
+                  line-height: 47.5px;
+                  text-align: left;
+                  color: #fe5f97;
+                }
+              }
+            }
+          }
+        }
+
+        .card-body {
+          font-size: 18px;
+          font-family: 'Corbel_Regular';
+          text-align: left;
+        }
+      }
+    }
+  }
+}

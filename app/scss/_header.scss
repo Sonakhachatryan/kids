@@ -1,0 +1,55 @@
+//header styles
+
+.navbar-brand {
+  width: 24%;
+  display: inline-block;
+  margin-right: unset;
+  padding: unset;
+  margin-top: -1%;
+}
+
+.main-navbar {
+  padding: 35px 0;
+  //position: fixed;
+  width: 100%;
+  background: white;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  ul {
+    padding: 7px 0;
+
+    li {
+      margin-left: 64px;
+
+      &.active {
+        border-bottom: 2px solid #19bdb7;
+      }
+
+      a {
+        font-size: 22px;
+        font-family: 'Futura_Bold';
+        color: white;
+        padding: 10px 0!important;
+      }
+
+      &.signIn, &.signUp {
+        padding-right: 6px;
+        @include btn();
+
+        a {
+          color: white !important;
+          padding: 10px 25px !important;
+          font-size: 20px !important;
+        }
+      }
+
+      &.signUp {
+        background-color: #910f3d;
+        margin-left: 22px;
+      }
+    }
+  }
+}

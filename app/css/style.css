@@ -1,0 +1,1582 @@
+@font-face {
+    font-family: 'Futura_Bold';
+    src: url("../fonts/FUTURA HEAVY FONT_0.TTF");
+}
+
+@font-face {
+    font-family: 'Corbel_Bold';
+    src: url("../fonts/corbelb.ttf");
+}
+
+@font-face {
+    font-family: 'Corbel_Regular';
+    src: url("../fonts/corbel.ttf");
+}
+
+@font-face {
+    font-family: 'arial';
+    src: url("../fonts/arial.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto_Medium';
+    src: url("../fonts/Roboto-Medium_0.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url("../fonts/Roboto-Light_0.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url("../fonts/Roboto-Bold_0.ttf");
+}
+
+@font-face {
+    font-family: 'myriadpro';
+    src: url("../fonts/myriadpro-regular.ttf");
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 92.5%;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+.navbar-brand {
+    width: 24%;
+    display: inline-block;
+    margin-right: unset;
+    padding: unset;
+    margin-top: -1%;
+}
+
+.main-navbar {
+    padding: 35px 0;
+    width: 100%;
+    background: white;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.main-navbar ul {
+    padding: 7px 0;
+}
+
+.main-navbar ul li {
+    margin-left: 64px;
+}
+
+.main-navbar ul li.active {
+    border-bottom: 2px solid #19bdb7;
+}
+
+.main-navbar ul li a {
+    font-size: 22px;
+    font-family: 'Futura_Bold';
+    color: white;
+    padding: 10px 0 !important;
+}
+
+.main-navbar ul li.signIn, .main-navbar ul li.signUp {
+    padding-right: 6px;
+    border-radius: 10px;
+    background-color: #fe5f97;
+    border: unset;
+    color: white;
+}
+
+.main-navbar ul li.signIn a, .main-navbar ul li.signUp a {
+    color: white !important;
+    padding: 10px 25px !important;
+    font-size: 20px !important;
+}
+
+.main-navbar ul li.signUp {
+    background-color: #910f3d;
+    margin-left: 22px;
+}
+
+section .no-padding {
+    padding: 0;
+}
+
+section.about_us_bunner, section.whatWeDo {
+    padding-top: 150px;
+    padding-bottom: 216px;
+}
+
+section.about_us_bunner .about_us_text img, section.whatWeDo .about_us_text img {
+    width: unset;
+    padding-left: 30px;
+}
+
+section.about_us_bunner .about_us_text h1, section.whatWeDo .about_us_text h1 {
+    padding-left: 125px;
+    font-family: 'Futura_Bold';
+    font-size: 51px;
+    margin-top: -55px;
+    padding-bottom: 63px;
+    margin-bottom: unset;
+}
+
+section.about_us_bunner .about_us_text p, section.whatWeDo .about_us_text p {
+    font-size: 35px;
+    font-family: 'Corbel_Regular';
+    padding-left: 125px;
+    text-align: left;
+}
+
+section.about_us_bunner .about_us_text a, section.whatWeDo .about_us_text a {
+    font-family: 'Corbel_Bold';
+    font-size: 54px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 3px solid white;
+}
+
+section.whatWeDo {
+    padding-bottom: 182px;
+}
+
+section.whatWeDo .rouse_bg {
+    width: 602px;
+    height: 543px;
+}
+
+section.whatWeDo .rouse_bg img {
+    box-shadow: 0px 17px 34.8px 5.2px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+section.subscribe_link {
+    background-image: url("../img/img_3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 123px 0;
+}
+
+section.subscribe_link .section_title {
+    color: white;
+}
+
+section.subscribe_link .section_title h1 {
+    font-family: 'Futura_Bold';
+    font-size: 75px;
+    margin: unset;
+}
+
+section.subscribe_link .section_title p {
+    font-family: Corbel_Bold;
+    font-size: 36px;
+    padding: 47px 0 65px;
+    margin: unset;
+}
+
+section.subscribe_link .section_title button {
+    width: 310px;
+    height: 74px;
+    border-radius: 10px;
+    background-color: #fe5f97;
+    font-size: 34px;
+    font-family: 'Futura_Bold';
+    color: white;
+    border: unset;
+    margin: 0 22px;
+}
+
+section.subscribe_link .section_title button:last-child {
+    background-color: #910f3d;
+}
+
+section.our_team .content {
+    width: 65.6%;
+    margin: 0 auto;
+}
+
+section.our_team .our_team_title {
+    padding-top: 168px;
+    padding-bottom: 88px;
+}
+
+section.our_team .our_team_title h1 {
+    font-family: 'Futura_Bold';
+    font-size: 75px;
+    position: relative;
+}
+
+section.our_team .our_team_title h1:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 51px;
+    height: 2px;
+    background-color: #2f0b96;
+    transform: rotate(45deg);
+    bottom: 33%;
+    left: 30%;
+}
+
+section.our_team .our_team_title h1:before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 67px;
+    height: 2px;
+    background-color: #ff00ff;
+    transform: rotate(10deg);
+    top: 0;
+    right: 26%;
+}
+
+section.our_team .testimonails_items .user_img {
+    width: 100%;
+    height: 273px;
+}
+
+section.our_team .testimonails_items .user_img img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+section.our_team .testimonails_items .user_comments {
+    margin-top: 11px;
+    width: 100%;
+    height: 119px;
+    background-color: #fe5f97;
+    color: white;
+    text-align: center;
+    padding: 16px 0;
+}
+
+section.our_team .testimonails_items .user_comments h5 {
+    font-size: 30px;
+    font-family: 'Roboto_Medium';
+    margin: unset;
+}
+
+section.our_team .testimonails_items .user_comments p {
+    font-family: 'Roboto-Light';
+    font-size: 20px;
+    padding-top: 15px;
+    margin: unset;
+}
+
+section.our_team .owl-dots {
+    text-align: center;
+    margin-top: 72px;
+    margin-bottom: 118px;
+}
+
+section.our_team .owl-dots button.owl-dot {
+    width: 23px;
+    height: 23px;
+    border: solid 2px #2f0b96;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+section.our_team .owl-dots button.owl-dot.active {
+    background-color: #2f0b96;
+}
+
+section.our_team .owl-dots button.owl-dot:focus {
+    outline: unset;
+    box-shadow: unset;
+}
+
+section.features_bunner, section.whatWeDo, section.last_bunner {
+    padding-top: 50px;
+}
+
+section.features_bunner .ellipse_img, section.whatWeDo .ellipse_img, section.last_bunner .ellipse_img {
+    position: relative;
+    margin-bottom: 116px;
+}
+
+section.features_bunner .ellipse_img img, section.whatWeDo .ellipse_img img, section.last_bunner .ellipse_img img {
+    width: unset !important;
+}
+
+section.features_bunner .ellipse_img h1, section.features_bunner .ellipse_img p, section.whatWeDo .ellipse_img h1, section.whatWeDo .ellipse_img p, section.last_bunner .ellipse_img h1, section.last_bunner .ellipse_img p {
+    position: absolute;
+    top: 51%;
+    left: 6%;
+}
+
+section.features_bunner .ellipse_img h1, section.whatWeDo .ellipse_img h1, section.last_bunner .ellipse_img h1 {
+    font-family: 'Futura_Bold';
+    font-size: 51px;
+}
+
+section.features_bunner .ellipse_img p, section.whatWeDo .ellipse_img p, section.last_bunner .ellipse_img p {
+    top: 80%;
+    font-family: 'Corbel_Regular';
+    font-size: 28px;
+}
+
+section.features_bunner .content, section.whatWeDo .content, section.last_bunner .content {
+    width: 86.8%;
+    margin: 0 auto;
+}
+
+section.features_bunner .content .section_img, section.whatWeDo .content .section_img, section.last_bunner .content .section_img {
+    background-image: url("../img/square.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 554px;
+    height: 504px;
+    position: relative;
+}
+
+section.features_bunner .content .img_sec, section.whatWeDo .content .img_sec, section.last_bunner .content .img_sec {
+    background-image: url("../img/elipse_sec.png") !important;
+}
+
+section.features_bunner .content .child_2, section.whatWeDo .content .child_2, section.last_bunner .content .child_2 {
+    top: 32% !important;
+    left: -37px !important;
+}
+
+section.features_bunner .content .child, section.whatWeDo .content .child, section.last_bunner .content .child {
+    position: absolute;
+    top: 0;
+    left: 6%;
+}
+
+section.features_bunner .content .inner_bunner, section.whatWeDo .content .inner_bunner, section.last_bunner .content .inner_bunner {
+    display: flex;
+    align-items: center;
+}
+
+section.features_bunner .content .inner_bunner .about_us_text, section.whatWeDo .content .inner_bunner .about_us_text, section.last_bunner .content .inner_bunner .about_us_text {
+    width: 593px;
+}
+
+section.features_bunner .content .inner_bunner .about_us_text h3, section.whatWeDo .content .inner_bunner .about_us_text h3, section.last_bunner .content .inner_bunner .about_us_text h3 {
+    font-size: 35px;
+    font-family: 'Futura_Bold';
+}
+
+section.features_bunner .content .inner_bunner .about_us_text p, section.whatWeDo .content .inner_bunner .about_us_text p, section.last_bunner .content .inner_bunner .about_us_text p {
+    font-family: 'Corbel_Regular';
+    font-size: 29px;
+    padding-left: unset;
+}
+
+section.last_bunner {
+    padding-bottom: 272px;
+}
+
+section.last_bunner .content .section_img {
+    background-image: url("../img/square_2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 513px;
+    height: 395px;
+    position: relative;
+}
+
+section.last_bunner .content .img_sec {
+    background-image: url("../img/elipse_sec.png") !important;
+}
+
+section.last_bunner .content .child_2 {
+    top: 32% !important;
+    left: -37px !important;
+}
+
+section.last_bunner .content .child {
+    position: absolute;
+    top: 0;
+    left: 6%;
+}
+
+section.last_bunner .content .inner_bunner {
+    display: flex;
+    align-items: center;
+}
+
+section.last_bunner .content .inner_bunner .about_us_text {
+    width: 593px;
+}
+
+section.last_bunner .content .inner_bunner .about_us_text h3 {
+    font-size: 35px;
+    font-family: 'Futura_Bold';
+}
+
+section.last_bunner .content .inner_bunner .about_us_text p {
+    font-family: 'Corbel_Regular';
+    font-size: 29px;
+    padding-left: unset;
+}
+
+main.about_us_page {
+    background-color: #efefef;
+}
+
+.about_page_shadow {
+    box-shadow: 1px 6px 21px #d8d8d8;
+    height: 100px;
+    transform: rotate(180deg);
+    border-radius: 50%;
+    margin-top: -45px;
+    background: white;
+}
+
+section.have_question {
+    padding-bottom: 208px;
+    padding-top: 90px;
+}
+
+section.have_question .content {
+    width: 87.1%;
+    margin: 0 auto;
+}
+
+section.have_question .section_title {
+    text-align: center;
+    margin-bottom: 149px;
+}
+
+section.have_question .section_title h1 {
+    font-size: 51px;
+    font-family: 'Futura_Bold';
+    margin-bottom: 33px;
+}
+
+section.have_question .section_title p {
+    font-family: 'Corbel_Regular';
+    font-size: 28px;
+    margin-bottom: 42px;
+}
+
+section.have_question .section_title .group_input {
+    height: 73px;
+}
+
+section.have_question .section_title .group_input input {
+    background-color: #ffffff;
+    height: 100%;
+    border: unset;
+    border-radius: unset;
+    width: 78%;
+    margin-right: 19px;
+    padding-left: 27px;
+    vertical-align: middle;
+}
+
+section.have_question .section_title .group_input .search_btn {
+    background-color: #fe5f97;
+    color: white;
+    font-family: "Futura_Bold";
+    font-size: 27px;
+    font-weight: 900;
+    line-height: 27px;
+    border: unset;
+    border-radius: unset;
+    padding: 0 96px;
+    height: 100%;
+    vertical-align: middle;
+}
+
+section.have_question .main_questions h2 {
+    font-family: "Futura_Bold";
+    font-size: 30px;
+    margin-bottom: 28px;
+}
+
+section.have_question .question_accordion .card {
+    margin-bottom: 31px;
+}
+
+section.have_question .question_accordion .card .card-header {
+    background-color: white;
+    border: unset;
+    border-radius: unset;
+    height: 121px;
+}
+
+section.have_question .question_accordion .card .card-header h5 {
+    height: 100%;
+    display: flex;
+}
+
+section.have_question .question_accordion .card .card-header h5 button {
+    font-family: "Futura_Bold";
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    white-space: normal;
+    display: flex;
+    text-decoration: none;
+}
+
+section.have_question .question_accordion .card .card-header h5 button span img {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+}
+
+section.have_question .question_accordion .card .card-header h5 button span i {
+    line-height: 47.5px;
+    text-align: left;
+    color: #fe5f97;
+}
+
+section.have_question .question_accordion .card .card-body {
+    font-size: 18px;
+    font-family: 'Corbel_Regular';
+    text-align: left;
+}
+
+section.sign_up, section.sign_in {
+    padding: 200px 0;
+}
+
+section.sign_up h1, section.sign_in h1 {
+    font-family: "myriadpro";
+    font-size: 46.5px;
+    font-weight: bold;
+    margin-bottom: 54px;
+}
+
+section.sign_up h1 span, section.sign_in h1 span {
+    color: #910f3d;
+}
+
+section.sign_up .content, section.sign_in .content {
+    width: 75.4%;
+    margin: 0 auto;
+}
+
+section.sign_up .content .section_img, section.sign_in .content .section_img {
+    background-image: url("../img/square_3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 497px;
+    height: 522px;
+    position: relative;
+    float: right;
+}
+
+section.sign_up .content .child, section.sign_in .content .child {
+    position: absolute;
+    top: -89px;
+    left: 33%;
+}
+
+section.sign_up .content .sign_up_forms input, section.sign_in .content .sign_up_forms input {
+    background-color: white;
+    border: unset;
+    border-radius: unset;
+    padding: 26px 24px;
+    margin-bottom: 24px;
+}
+
+section.sign_up .content .sign_up_forms input::-webkit-input-placeholder, section.sign_in .content .sign_up_forms input::-webkit-input-placeholder {
+    font-family: "OpenSans-Regular";
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #222544;
+}
+
+section.sign_up .content .sign_up_forms button, section.sign_in .content .sign_up_forms button {
+    background-color: #910f3d;
+    width: 100%;
+    border: unset;
+    border-radius: unset;
+    margin-top: 41px;
+    font-family: 'Roboto-Bold';
+    font-size: 23px;
+    padding: 15px 0;
+}
+
+section.sign_up .content .sign_up_forms .container_rem, section.sign_in .content .sign_up_forms .container_rem {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: 'OpenSans-Regular';
+    font-size: 18px;
+    color: #222544;
+    /* Style the checkmark/indicator */
+}
+
+section.sign_up .content .sign_up_forms .container_rem input, section.sign_in .content .sign_up_forms .container_rem input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+section.sign_up .content .sign_up_forms .container_rem .checkmark, section.sign_in .content .sign_up_forms .container_rem .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+}
+
+section.sign_up .content .sign_up_forms .container_rem .checkmark:after, section.sign_in .content .sign_up_forms .container_rem .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+section.sign_up .content .sign_up_forms .container_rem:hover input ~ .checkmark, section.sign_in .content .sign_up_forms .container_rem:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+section.sign_up .content .sign_up_forms .container_rem input:checked ~ .checkmark, section.sign_in .content .sign_up_forms .container_rem input:checked ~ .checkmark {
+    background-color: #910f3d;
+}
+
+section.sign_up .content .sign_up_forms .container_rem input:checked ~ .checkmark:after, section.sign_in .content .sign_up_forms .container_rem input:checked ~ .checkmark:after {
+    display: block;
+}
+
+section.sign_up .content .sign_up_forms .container_rem .checkmark:after, section.sign_in .content .sign_up_forms .container_rem .checkmark:after {
+    left: 9px;
+    top: 7px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+section.sign_in {
+    background: url(../img/bg-33.png) no-repeat center;
+    height: 1070px;
+    display: flex;
+    align-items: center;
+}
+
+section.sign_in .pos_img {
+    position: absolute;
+    top: -33%;
+    right: 20%;
+    z-index: 9;
+}
+
+section.sign_in .pos_img img {
+    width: 100%;
+    height: 100%;
+}
+
+section.sign_in .sign_in_form {
+    position: relative;
+    width: 87%;
+    margin: 0 auto;
+}
+
+section.sign_in .sign_in_form .main_form {
+    background-color: white;
+    padding: 62px 222px 70px 116px;
+    margin-top: 40px;
+}
+
+section.sign_in .sign_in_form .main_form h1 {
+    font-family: "myriadpro";
+    font-size: 46.5px;
+    font-weight: bold;
+    margin-bottom: 54px;
+}
+
+section.sign_in .sign_in_form .main_form h1 span {
+    color: #fe5f97;
+}
+
+section.sign_in .sign_in_form .main_form button {
+    background-color: #fe5f97;
+    width: 100%;
+    margin-bottom: 27px;
+    border: unset;
+    border-radius: unset;
+    font-family: 'Roboto-Bold';
+    font-size: 23px;
+    padding: 15px 0;
+}
+
+section.sign_in .sign_in_form .main_form input {
+    width: 100%;
+    border-radius: unset;
+    border: unset;
+    background-color: #efefef;
+    margin-bottom: 27px;
+    height: 65px;
+}
+
+section.sign_in .forgot {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.sign_in .forgot a {
+    font-family: "OpenSans-Regular";
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #000000;
+    text-decoration: none;
+}
+
+section.sign_in .container_rem {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: 'OpenSans-Regular';
+    font-size: 18px;
+    color: #222544;
+    /* Style the checkmark/indicator */
+}
+
+section.sign_in .container_rem input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+section.sign_in .container_rem .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+section.sign_in .container_rem .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+section.sign_in .container_rem input:checked ~ .checkmark {
+    background-color: #fe5f97;
+    border: unset;
+}
+
+section.sign_in .container_rem input:checked ~ .checkmark:after {
+    display: block;
+}
+
+section.sign_in .container_rem .checkmark:after {
+    left: 9px;
+    top: 7px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+footer img {
+    width: 65%;
+}
+
+footer ul li a {
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: none;
+}
+
+footer ul.social_links {
+    margin: unset;
+    list-style-type: none;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+footer ul.social_links li {
+    border-radius: 50%;
+    width: 68px;
+    height: 68px;
+    background-color: #19bdb7;
+    margin-bottom: 91px;
+}
+
+footer ul.social_links li i {
+    padding-top: 18px;
+    font-size: 32px;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+footer .contact p.contact {
+    font-size: 45px;
+    font-family: 'Corbel_Bold';
+    padding-left: 100px;
+}
+
+footer .contact ul {
+    list-style-type: none;
+    padding: unset;
+    padding-left: 100px;
+}
+
+footer .contact ul li p {
+    font-size: 30px;
+    font-family: 'Corbel_Regular';
+}
+
+footer .menu p {
+    font-size: 45px;
+    font-family: 'Corbel_Bold';
+    padding-left: 60px;
+}
+
+footer .menu ul {
+    list-style-type: none;
+    padding: unset;
+    padding-left: 60px;
+}
+
+footer .menu ul li a {
+    font-family: 'Corbel_Regular';
+    font-size: 30px;
+    color: black;
+}
+
+footer .copyright {
+    font-family: 'arial';
+    font-size: 18px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+footer .copyright a {
+    border-bottom: 2px solid black;
+    color: black;
+    padding: 5px 0;
+    margin: 5px 10px;
+    text-decoration: none;
+}
+
+section.home_page {
+    background-image: url(../img/kids.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-top: 73px;
+}
+
+section.home_page .home_text {
+    text-align: center;
+    padding-top: 150px;
+    float: right;
+}
+
+section.home_page .home_text h1 {
+    font-size: 100px;
+    font-family: 'Corbel_Bold';
+    margin-top: 50px;
+}
+
+section.home_page .home_text p {
+    font-size: 65px;
+    font-family: 'Corbel_Regular';
+    margin-bottom: 60px;
+}
+
+section.home_page .home_text button {
+    border-radius: 10px;
+    background-color: #fe5f97;
+    border: unset;
+    color: white;
+    font-size: 35px;
+    font-family: 'Futura_Bold';
+    padding: 10px 45px;
+    margin-bottom: 200px;
+}
+
+section.about_us {
+    background-image: url("../img/bg2.png");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 47px 0 100px 0;
+}
+
+section.about_us .kidsImage {
+    display: flex;
+    align-items: center;
+    padding: 140px 90px 0 90px;
+}
+
+section.about_us img {
+    width: unset;
+}
+
+section.about_us .about_us_text {
+    text-align: center;
+}
+
+section.about_us .about_us_text img {
+    width: unset;
+}
+
+section.about_us .about_us_text h1 {
+    color: white;
+    font-family: 'Futura_Bold';
+    font-size: 82px;
+    margin-top: -80px;
+    padding-bottom: 80px;
+}
+
+section.about_us .about_us_text p {
+    font-size: 35px;
+    font-family: 'Corbel_Regular';
+    color: white;
+    text-align: left;
+}
+
+section.about_us .about_us_text a {
+    font-family: 'Corbel_Bold';
+    font-size: 54px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 3px solid white;
+}
+
+section.our_services {
+    padding: 135px 0;
+}
+
+section.our_services .content {
+    width: 84.7%;
+}
+
+section.our_services .content h1 {
+    font-size: 75px;
+    font-family: 'Futura_Bold';
+    color: #777777;
+    margin-bottom: 48px;
+}
+
+section.our_services .content p {
+    font-family: 'Corbel_Regular';
+    font-size: 27px;
+    color: #777777;
+    margin-bottom: 86px;
+}
+
+section.our_services .content .services_items img {
+    position: relative;
+    width: 480px;
+    height: 330px;
+}
+
+section.our_services .content .services_items .green {
+    background-color: #19bdb7 !important;
+}
+
+section.our_services .content .services_items .rose {
+    background-color: #fe5f97 !important;
+}
+
+section.our_services .content .services_items .blue {
+    background-color: #2f0b96 !important;
+}
+
+section.our_services .content .services_items .services_descript {
+    position: absolute;
+    width: 385px;
+    margin: 0 auto;
+    left: 11%;
+    top: 76%;
+    padding: 5px;
+}
+
+section.our_services .content .services_items .services_descript p {
+    color: white;
+    font-size: 27px;
+    font-family: 'Corbel_Regular';
+    margin-bottom: unset;
+    text-align: center;
+}
+
+section.our_services .content .see_more {
+    margin: 200px 0 0 0;
+}
+
+section.our_services .content .see_more a {
+    font-family: 'Corbel_Bold';
+    font-size: 53px;
+    color: black;
+    border-bottom: 3px solid black;
+    text-decoration: none;
+}
+
+section.testimonials {
+    background-image: url("../img/bg3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 55px;
+    padding-bottom: 89px;
+}
+
+section.testimonials .content {
+    width: 68%;
+    margin: 0 auto;
+}
+
+section.testimonials .testimonails_items {
+    width: 85%;
+    position: relative;
+}
+
+section.testimonials .testimonails_items p.quotes {
+    position: absolute;
+    top: 50%;
+}
+
+section.testimonials .testimonails_items p.quotes img {
+    width: unset;
+}
+
+section.testimonials .testimonails_items .user_comments {
+    margin-top: 11px;
+    padding: 49px 25px 29px 26px;
+    text-align: center;
+    background-color: #fe5f97;
+    color: white;
+}
+
+section.testimonials .testimonails_items .user_comments.blue_bg {
+    background-color: #2f0b96;
+}
+
+section.testimonials .testimonails_items .user_comments h5 {
+    position: relative;
+}
+
+section.testimonials .testimonails_items .user_comments h5:after, section.testimonials .testimonails_items .user_comments h5:before {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    color: white;
+    display: block;
+    left: 0;
+}
+
+section.testimonials .testimonails_items .user_comments h5:before {
+    right: 0;
+}
+
+section.subscribe {
+    padding-top: 213px;
+}
+
+section.subscribe .sub h1 {
+    font-size: 75px;
+    font-family: 'Futura_Bold';
+    color: #777777;
+    margin-bottom: 41px;
+}
+
+section.subscribe .sub p {
+    font-size: 36px;
+    font-family: 'Corbel_Regular';
+    color: #777777;
+    margin-bottom: 33px;
+}
+
+section.subscribe .signButton {
+    display: flex;
+    align-items: center;
+}
+
+section.subscribe .signButton button {
+    border-radius: 10px;
+    background-color: #fe5f97;
+    border: unset;
+    color: white;
+    font-size: 36px;
+    font-family: 'Futura_Bold';
+    padding: 22px 67px;
+    margin: 0 35px;
+}
+
+section.subscribe .signButton button.signUp {
+    background-color: #910f3d;
+}
+
+section.subscribe form label {
+    font-family: 'Corbel_Regular';
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+section.subscribe form input {
+    opacity: 0.3;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: solid 2px #000000;
+    width: 789px;
+    height: 65px;
+}
+
+section.subscribe form button {
+    border-radius: 10px;
+    background-color: #fe5f97;
+    border: unset;
+    color: white;
+    font-size: 36px;
+    font-family: 'Futura_Bold';
+    width: 326px;
+    height: 79px;
+    margin-bottom: 176px;
+    margin-top: 143px;
+}
+
+section.faq_wrapper {
+    margin-top: 100px;
+}
+
+section.faq_wrapper .faq_header {
+    text-align: center;
+}
+
+section.faq_wrapper .faq_header h1 {
+    font-size: 75px;
+    font-family: 'Futura_Bold';
+    color: #777777;
+    margin-bottom: 80px;
+}
+
+section.faq_wrapper .faq_itmes .question h5 {
+    font-family: 'Futura_Bold';
+    font-size: 27px;
+    color: black;
+}
+
+section.faq_wrapper .faq_itmes .question p {
+    font-family: 'Corbel_Regular';
+    font-size: 20px;
+    color: #777777;
+    margin-bottom: 86px;
+}
+
+section.faq_wrapper .faq_itmes .question svg {
+    width: 26px;
+    margin-bottom: 10px;
+}
+
+.owl-dots {
+    text-align: center;
+    margin-top: 73px;
+}
+
+.owl-dots button.owl-dot {
+    width: 22px;
+    height: 22px;
+    border: solid 2px #006d69;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.owl-dots button.owl-dot.active {
+    background-color: #006d69;
+}
+
+.owl-dots button.owl-dot:focus {
+    outline: unset;
+    box-shadow: unset;
+}
+
+.bottomShadow {
+    box-shadow: 1px 6px 45px #d8d8d8;
+    height: 100px;
+    transform: rotate(180deg);
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 320px) {
+    .about_page_shadow {
+        margin-top: -77px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .main-navbar ul li {
+        margin-left: 20px;
+    }
+
+    .main-navbar ul li a {
+        font-size: 25px;
+    }
+
+    .main-navbar ul li.signIn a, .main-navbar ul li.signUp a {
+        color: white !important;
+        padding: 13px 20px !important;
+    }
+
+    section.about_us img {
+        width: 100%;
+    }
+
+    section.about_us .about_us_text img {
+        width: 100%;
+    }
+
+    section.our_services .content .services_items img {
+        width: 100%;
+        height: unset;
+        margin: 20px 0;
+    }
+
+    section.our_services .content .services_items .services_descript {
+        display: none;
+    }
+
+    section.testimonials .test img {
+        width: 100%;
+    }
+
+    section.subscribe form input {
+        width: 100%;
+    }
+
+    section.subscribe form button {
+        width: auto;
+        padding: 5px 20px;
+    }
+
+    section.home_page .home_text {
+        text-align: left;
+    }
+
+    section.home_page .home_text h1 {
+        font-size: 50px;
+    }
+
+    section.home_page .home_text p {
+        font-size: 35px;
+    }
+
+    section.features_bunner .ellipse_img img, section.whatWeDo .ellipse_img img, section.last_bunner .ellipse_img img {
+        width: 100% !important;
+    }
+
+    section.features_bunner .content .section_img, section.whatWeDo .content .section_img, section.last_bunner .content .section_img {
+        width: auto;
+    }
+
+    section.last_bunner {
+        margin-bottom: 20px;
+    }
+
+    section.about_us_bunner, section.whatWeDo {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    section h1 {
+        font-size: 50px !important;
+    }
+
+    section p {
+        font-size: 30px !important;
+    }
+
+    section footer .menu ul li a {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1640px) and (min-width: 468px) {
+    img {
+        width: 100% !important;
+    }
+
+    section.our_services .content .services_items .services_descript {
+        position: absolute;
+        width: 90%;
+        margin: 0 auto;
+        left: 23px;
+        top: 76%;
+        padding: 5px;
+    }
+
+    section.sign_up .content .section_img, section.sign_in .content .section_img {
+        width: 100%;
+    }
+
+    section.sign_up .content .child, section.sign_in .content .child {
+        position: absolute;
+        top: 87px;
+        left: 33%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    section.subscribe .signButton button {
+        margin: 15px 0 !important;
+        padding: unset;
+        width: 82%;
+    }
+
+    section.sign_in .pos_img {
+        display: none;
+    }
+
+    section.sign_up .content .section_img, section.sign_in .content .section_img {
+        width: 497px;
+        height: 625px;
+        margin-top: 44px;
+    }
+
+    section.sign_up .content .child, section.sign_in .content .child {
+        position: absolute;
+        top: 0;
+        left: 33%;
+    }
+
+    section.subscribe {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    section.sign_up .content .section_img, section.sign_in .content .section_img {
+        width: 497px;
+        height: 625px;
+        margin-top: 44px;
+    }
+
+    section.sign_up .content .child, section.sign_in .content .child {
+        top: 0;
+        left: 33%;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 320px) {
+    footer ul li p, footer ul li a {
+        font-size: 20px;
+        font-family: 'Corbel_Regular';
+    }
+
+    section.sign_in .sign_in_form {
+        width: 100%;
+    }
+
+    section.sign_up .content, section.sign_in .content {
+        width: 91.4%;
+    }
+
+    section.our_team .content {
+        width: 91%;
+        margin: 0 auto;
+    }
+
+    .about_us_text {
+        padding-top: 60px;
+    }
+
+    section.about_us_bunner .about_us_text h1, section.whatWeDo .about_us_text h1 {
+        padding-left: 50px;
+    }
+
+    footer ul.social_links li {
+        width: 55px;
+        height: 55px;
+    }
+
+    footer ul.social_links li i {
+        font-size: 22px;
+    }
+
+    footer .menu p, footer .contact p.contact {
+        font-size: 30px;
+    }
+
+    section.sign_in .sign_in_form .main_form {
+        background-color: white;
+        padding: 70px 20px;
+        margin-top: 40px;
+    }
+
+    .main-navbar ul li.signUp, .main-navbar ul li.signIn {
+        margin: 5px 0;
+        margin-left: unset;
+    }
+
+    .main-navbar ul li.signIn a, .main-navbar ul li.signUp a {
+        padding: 6px 20px !important;
+    }
+
+    section.our_team .testimonails_items .user_img, section.our_team .testimonails_items .user_comments {
+        width: 73%;
+        margin: 15px auto;
+    }
+
+    .main-navbar ul li a {
+        font-size: 16px;
+    }
+
+    .navbar-toggler {
+        float: right;
+    }
+
+    section.about_us_bunner .about_us_text img, section.whatWeDo .about_us_text img {
+        width: 100%;
+    }
+
+    section.about_us_bunner .about_us_text p, section.whatWeDo .about_us_text p {
+        padding-left: 20px;
+    }
+
+    section.sign_up, section.sign_in {
+        padding: 50px 0 150px;
+    }
+
+    section.subscribe_link .section_title button {
+        width: 100%;
+        height: 74px;
+        border-radius: 10px;
+        background-color: #fe5f97;
+        font-size: 34px;
+        font-family: 'Futura_Bold';
+        color: white;
+        border: unset;
+        margin: 20px 0;
+    }
+
+    section.have_question .general_quest .question_accordion .card .card-header h5 button {
+        font-size: 13px;
+    }
+
+    section.have_question .section_title .group_input input {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    section.faq_wrapper .faq_itmes .question p {
+        margin-bottom: unset;
+    }
+
+    section.our_services {
+        padding: 100px 0;
+    }
+
+    section.our_services .content .see_more {
+        margin: unset;
+    }
+
+    section.testimonials .testimonails_items {
+        width: 100%;
+    }
+
+    section.testimonials .testimonails_items p.quotes {
+        top: 23%;
+    }
+
+    section.about_us .kidsImage {
+        padding: 14px 0 50px 0;
+    }
+
+    section.home_page .home_text h1, section.home_page .home_text p {
+        text-shadow: 1px -1px 1px #e2dfdf;
+    }
+
+    section p {
+        font-size: 25px !important;
+    }
+
+    section h1 {
+        font-size: 40px !important;
+    }
+
+    .about_page_shadow {
+        margin-top: -53px;
+    }
+
+    footer .menu ul, footer .menu p, footer .contact ul, footer .contact p {
+        padding-left: unset !important;
+    }
+
+    footer .menu ul li p, footer .menu ul li a, footer .menu p li p, footer .menu p li a, footer .contact ul li p, footer .contact ul li a, footer .contact p li p, footer .contact p li a {
+        font-size: 20px !important;
+    }
+
+    .owl-dots button.owl-dot {
+        margin-right: 14px;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    section.testimonials .content {
+        width: 84% !important;
+        margin: 0 auto;
+    }
+
+    section.testimonials .testimonails_items p.quotes {
+        top: 147px;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1300px) {
+    footer .contact ul li p, footer ul li a {
+        font-size: 20px;
+    }
+}
